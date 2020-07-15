@@ -23,6 +23,7 @@ class weatherDetails: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        cityNameLabel.text = city.name
         remarkablePlaceImageVIew.image = city.remarkablePlaceImage()
 
        getWeatherDetails()
